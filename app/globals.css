@@ -338,18 +338,18 @@ a {
 
 @media (max-width: 767px) {
   .header-stripes-blue {
-    left: 10.65rem;
+    left: 11.6rem;
   }
 
   .header-stripes-yellow {
     clip-path: polygon(
       0 0,
-      9.65rem 0,
-      8.85rem 12px,
+      10.85rem 0,
+      9.95rem 12px,
       0 12px,
       0 16px,
-      8.05rem 16px,
-      8.85rem 4px,
+      9.1rem 16px,
+      10rem 4px,
       100% 4px,
       100% 0
     );
