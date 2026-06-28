@@ -4,7 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-import heroImage from "../imgs/4.png";
+import heroImage from "../imgs/use-instead-of-manual-gradient-effect-for-now.png";
+import headerStripeImage from "../imgs/use-this-instead-of-svg-line-bottom-of-sticky-footer-for-now.png";
 
 const services = [
   "Diagnostics and troubleshooting",
@@ -42,8 +43,13 @@ export default function Home() {
           </div>
         </div>
         <div className="header-stripes" aria-hidden="true">
-          <div className="header-stripes-blue" />
-          <div className="header-stripes-yellow" />
+          <Image
+            src={headerStripeImage}
+            alt=""
+            fill
+            className="object-cover object-left"
+            sizes="100vw"
+          />
         </div>
       </header>
 

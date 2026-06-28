@@ -181,53 +181,12 @@ a {
   position: relative;
   height: 18px;
   overflow: hidden;
-  background: #ffffff;
-}
-
-.header-stripes-blue {
-  position: absolute;
-  left: 17.1rem;
-  right: 0;
-  top: 7px;
-  height: 5px;
-  background: var(--ranger-blue-deep);
-}
-
-.header-stripes-yellow {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 18px;
-  background: var(--ranger-yellow);
-  clip-path: polygon(
-    0 0,
-    18.15rem 0,
-    17.05rem 11px,
-    0 11px,
-    0 14px,
-    16rem 14px,
-    17.15rem 3px,
-    100% 3px,
-    100% 0
-  );
+  background: transparent;
 }
 
 .hero-copy {
   position: relative;
   z-index: 2;
-}
-
-.hero-image-wrap::before {
-  content: "";
-  position: absolute;
-  inset: 0 auto 0 -12%;
-  width: 48%;
-  background:
-    radial-gradient(circle at right center, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.85) 28%, rgba(255, 255, 255, 0.42) 56%, rgba(255, 255, 255, 0) 82%),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.72) 22%, rgba(255, 255, 255, 0.12) 70%, rgba(255, 255, 255, 0) 100%);
-  z-index: 1;
-  pointer-events: none;
 }
 
 @media (min-width: 1024px) {
@@ -310,27 +269,6 @@ a {
 
   .header-stripes {
     height: 12px;
-  }
-
-  .header-stripes-blue {
-    left: 5.95rem;
-    top: 5px;
-    height: 4px;
-  }
-
-  .header-stripes-yellow {
-    height: 12px;
-    clip-path: polygon(
-      0 0,
-      6.35rem 0,
-      5.8rem 8px,
-      0 8px,
-      0 10px,
-      5.25rem 10px,
-      5.82rem 2px,
-      100% 2px,
-      100% 0
-    );
   }
 
   .shell {
