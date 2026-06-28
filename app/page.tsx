@@ -38,18 +38,44 @@ const workGallery = [
 export default function Home() {
   return (
     <main className="min-h-screen bg-rangerCanvas text-slate-950">
-      <header className="sticky top-0 z-50 border-b-4 border-rangerBlue bg-rangerOrange">
+      <header className="sticky top-0 z-50 bg-white shadow-[0_10px_30px_rgba(21,85,159,0.08)]">
         <div className="shell">
-          <div className="flex min-h-[88px] items-center py-4 lg:min-h-[96px] lg:py-3">
-            <Link href="/" className="inline-block">
-              <div className="header-wordmark text-rangerBlue">Ranger Auto</div>
-              <div className="header-subtitle text-white">Buy . Sell . Repair</div>
+          <div className="flex min-h-[84px] items-center justify-between gap-6 py-4">
+            <Link href="/" className="flex items-center gap-4">
+              <div className="brand-mark" aria-hidden="true">
+                <div className="brand-mark-ra">RA</div>
+                <div className="brand-mark-yellow" />
+                <div className="brand-mark-blue" />
+              </div>
+              <div>
+                <div className="header-wordmark text-rangerBlue">Ranger Auto</div>
+                <div className="header-subtitle text-rangerOrange">Buy . Sell . Repair</div>
+              </div>
             </Link>
+
+            <nav className="hidden items-center gap-10 lg:flex">
+              <Link href="#services" className="header-nav-link">
+                Services
+              </Link>
+              <Link href="#about" className="header-nav-link">
+                About
+              </Link>
+              <Link href="#work" className="header-nav-link">
+                Work
+              </Link>
+              <Link href="/contact" className="header-nav-button">
+                Contact
+              </Link>
+            </nav>
           </div>
+        </div>
+        <div className="header-stripes" aria-hidden="true">
+          <div className="header-stripes-blue" />
+          <div className="header-stripes-yellow" />
         </div>
       </header>
 
-      <section className="border-b border-slate-300 bg-white">
+      <section id="about" className="border-b border-slate-200 bg-white">
         <div className="grid lg:grid-cols-[1.05fr_0.95fr]">
           <div className="hero-copy shell py-12 md:py-16 lg:py-20">
             <p className="shop-kicker">Independent Lawrence auto repair</p>
@@ -90,7 +116,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative min-h-[340px] bg-[#d7dbe1] lg:min-h-[640px]">
+          <div className="hero-image-wrap relative min-h-[340px] bg-[#d7dbe1] lg:min-h-[640px]">
             <Image
               src={heroImage}
               alt="Ranger Auto shop with a car on the lift"
@@ -98,7 +124,7 @@ export default function Home() {
               className="object-cover"
               priority
             />
-            <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.18),rgba(255,255,255,0)_35%,rgba(0,0,0,0.18))]" />
+            <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.68),rgba(255,255,255,0)_22%,rgba(0,0,0,0.1))]" />
             <div className="absolute bottom-0 left-0 right-0">
               <div className="hero-stripe-orange" />
               <div className="hero-stripe-blue" />
@@ -107,7 +133,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#f2f4f7] py-12 md:py-16">
+      <section id="work" className="bg-[#f5f7fb] py-12 md:py-16">
         <div className="shell">
           <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <div>
@@ -138,7 +164,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white py-12 md:py-16">
+      <section id="services" className="bg-white py-12 md:py-16">
         <div className="shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
             <p className="shop-kicker">What Ranger Auto does</p>
