@@ -32,6 +32,12 @@ a {
   @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
 }
 
+:root {
+  --ranger-blue-strong: #1d5aa8;
+  --ranger-blue-deep: #174f96;
+  --ranger-yellow: #f2be1a;
+}
+
 .header-wordmark {
   font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
   font-size: clamp(2.4rem, 5vw, 4rem);
@@ -48,7 +54,7 @@ a {
 }
 
 .header-nav-link {
-  color: #15559f;
+  color: var(--ranger-blue-deep);
   font-size: 0.83rem;
   font-weight: 900;
   letter-spacing: 0.1em;
@@ -56,13 +62,13 @@ a {
 }
 
 .header-nav-link:hover {
-  color: #0f3d74;
+  color: #123e76;
 }
 
 .header-nav-button {
-  border: 2px solid rgba(21, 85, 159, 0.35);
+  border: 2px solid rgba(29, 90, 168, 0.35);
   padding: 0.8rem 1rem;
-  color: #15559f;
+  color: var(--ranger-blue-deep);
   font-size: 0.83rem;
   font-weight: 900;
   letter-spacing: 0.1em;
@@ -70,7 +76,7 @@ a {
 }
 
 .header-nav-button:hover {
-  border-color: #15559f;
+  border-color: var(--ranger-blue-deep);
   background: #f4f8fc;
 }
 
@@ -99,7 +105,7 @@ a {
 }
 
 .shop-kicker {
-  color: #15559f;
+  color: var(--ranger-blue-deep);
   font-size: 0.78rem;
   font-weight: 900;
   letter-spacing: 0.24em;
@@ -108,7 +114,7 @@ a {
 
 .button-primary {
   @apply inline-flex items-center justify-center px-5 py-3 text-sm font-bold uppercase tracking-[0.08em] text-white;
-  background: #15559f;
+  background: var(--ranger-blue-deep);
   box-shadow: 0 12px 30px rgba(21, 85, 159, 0.18);
 }
 
@@ -118,7 +124,7 @@ a {
 
 .button-secondary {
   @apply inline-flex items-center justify-center border px-5 py-3 text-sm font-bold uppercase tracking-[0.08em] text-rangerBlue;
-  border-color: rgba(21, 85, 159, 0.35);
+  border-color: rgba(29, 90, 168, 0.35);
   background: white;
 }
 
@@ -146,22 +152,22 @@ a {
 
 .hero-stripe-orange {
   height: 7px;
-  background: #f79a18;
+  background: var(--ranger-yellow);
 }
 
 .hero-stripe-blue {
   height: 11px;
-  background: #15559f;
+  background: var(--ranger-blue-deep);
 }
 
 .info-slab {
-  border-left: 4px solid #f79a18;
+  border-left: 4px solid var(--ranger-yellow);
   background: linear-gradient(180deg, #f5f8fc, #edf3fa);
   padding: 1rem 1rem 0.95rem;
 }
 
 .info-label {
-  color: #15559f;
+  color: var(--ranger-blue-deep);
   font-size: 0.72rem;
   font-weight: 900;
   letter-spacing: 0.18em;
@@ -186,7 +192,7 @@ a {
 .brand-mark-ra {
   position: relative;
   z-index: 3;
-  color: #15559f;
+  color: var(--ranger-blue-deep);
   font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
   font-size: 1.85rem;
   line-height: 1;
@@ -205,7 +211,7 @@ a {
   bottom: 0.55rem;
   z-index: 2;
   height: 0.34rem;
-  background: #f79a18;
+  background: var(--ranger-yellow);
   clip-path: polygon(0 100%, 55% 100%, 71% 0, 100% 0, 100% 100%, 0 100%);
 }
 
@@ -213,22 +219,23 @@ a {
   bottom: 0.18rem;
   z-index: 1;
   height: 0.28rem;
-  background: #15559f;
+  background: var(--ranger-blue-deep);
 }
 
 .header-stripes {
   position: relative;
-  height: 24px;
+  height: 26px;
   overflow: hidden;
+  background: #ffffff;
 }
 
 .header-stripes-blue {
   position: absolute;
-  left: 17.35rem;
+  left: 18.25rem;
   right: 0;
-  top: 10px;
-  height: 8px;
-  background: #15559f;
+  top: 11px;
+  height: 6px;
+  background: var(--ranger-blue-deep);
 }
 
 .header-stripes-yellow {
@@ -237,15 +244,15 @@ a {
   right: 0;
   top: 0;
   height: 24px;
-  background: #f79a18;
+  background: var(--ranger-yellow);
   clip-path: polygon(
     0 0,
-    19.2rem 0,
-    18rem 14px,
-    0 14px,
-    0 18px,
-    16.5rem 18px,
-    17.7rem 4px,
+    19.35rem 0,
+    18.05rem 15px,
+    0 15px,
+    0 19px,
+    16.9rem 19px,
+    18.2rem 4px,
     100% 4px,
     100% 0
   );
@@ -261,7 +268,7 @@ a {
   position: absolute;
   inset: 0 auto 0 -16%;
   width: 38%;
-  background: radial-gradient(circle at right center, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0));
+  background: radial-gradient(circle at right center, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
   z-index: 1;
 }
 
@@ -287,7 +294,7 @@ a {
   background: linear-gradient(180deg, #ffffff, #f7faff);
   box-shadow: 0 14px 34px rgba(21, 85, 159, 0.07);
   padding: 1rem 1.1rem;
-  color: #15559f;
+  color: var(--ranger-blue-deep);
   font-size: 0.96rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -297,7 +304,7 @@ a {
   height: 0.55rem;
   width: 0.55rem;
   flex-shrink: 0;
-  background: #f79a18;
+  background: var(--ranger-yellow);
 }
 
 .contact-label {
@@ -331,18 +338,18 @@ a {
 
 @media (max-width: 767px) {
   .header-stripes-blue {
-    left: 10rem;
+    left: 10.65rem;
   }
 
   .header-stripes-yellow {
     clip-path: polygon(
       0 0,
-      8.9rem 0,
-      8.15rem 12px,
+      9.65rem 0,
+      8.85rem 12px,
       0 12px,
       0 16px,
-      7.35rem 16px,
-      8.1rem 4px,
+      8.05rem 16px,
+      8.85rem 4px,
       100% 4px,
       100% 0
     );
