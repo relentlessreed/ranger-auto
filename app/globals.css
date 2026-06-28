@@ -150,16 +150,6 @@ a {
   background: rgba(255, 255, 255, 0.08);
 }
 
-.hero-stripe-orange {
-  height: 7px;
-  background: var(--ranger-yellow);
-}
-
-.hero-stripe-blue {
-  height: 11px;
-  background: var(--ranger-blue-deep);
-}
-
 .info-slab {
   border-left: 4px solid var(--ranger-yellow);
   background: linear-gradient(180deg, #f5f8fc, #edf3fa);
@@ -231,10 +221,19 @@ a {
 .hero-image-wrap::before {
   content: "";
   position: absolute;
-  inset: 0 auto 0 -16%;
-  width: 38%;
-  background: radial-gradient(circle at right center, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  inset: 0 auto 0 -12%;
+  width: 48%;
+  background:
+    radial-gradient(circle at right center, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.85) 28%, rgba(255, 255, 255, 0.42) 56%, rgba(255, 255, 255, 0) 82%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.72) 22%, rgba(255, 255, 255, 0.12) 70%, rgba(255, 255, 255, 0) 100%);
   z-index: 1;
+  pointer-events: none;
+}
+
+@media (min-width: 1024px) {
+  .hero-image-wrap {
+    min-height: 565px !important;
+  }
 }
 
 .service-grid {

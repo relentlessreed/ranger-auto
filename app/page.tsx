@@ -21,15 +21,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-white shadow-[0_10px_30px_rgba(21,85,159,0.08)]">
         <div className="shell">
           <div className="flex min-h-[84px] items-center justify-between gap-6 py-4">
-            <Link href="/" className="flex items-center gap-4">
-              <Image
-                src="/brand-mark.svg"
-                alt=""
-                aria-hidden="true"
-                width={120}
-                height={60}
-                className="brand-mark-svg"
-              />
+            <Link href="/" className="flex items-center">
               <div>
                 <div className="header-wordmark text-rangerBlue">Ranger Auto</div>
                 <div className="header-subtitle text-rangerOrange">Buy . Sell . Repair</div>
@@ -104,11 +96,6 @@ export default function Home() {
               className="object-cover"
               priority
             />
-            <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.68),rgba(255,255,255,0)_22%,rgba(0,0,0,0.1))]" />
-            <div className="absolute bottom-0 left-0 right-0">
-              <div className="hero-stripe-orange" />
-              <div className="hero-stripe-blue" />
-            </div>
           </div>
         </div>
       </section>

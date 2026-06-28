@@ -12,15 +12,7 @@ export default function ContactPage() {
       <header className="sticky top-0 z-50 bg-white shadow-[0_10px_30px_rgba(21,85,159,0.08)]">
         <div className="shell">
           <div className="flex min-h-[84px] items-center justify-between gap-6 py-4">
-            <Link href="/" className="flex items-center gap-4">
-              <Image
-                src="/brand-mark.svg"
-                alt=""
-                aria-hidden="true"
-                width={120}
-                height={60}
-                className="brand-mark-svg"
-              />
+            <Link href="/" className="flex items-center">
               <div>
                 <div className="header-wordmark text-rangerBlue">Ranger Auto</div>
                 <div className="header-subtitle text-rangerOrange">Buy . Sell . Repair</div>
