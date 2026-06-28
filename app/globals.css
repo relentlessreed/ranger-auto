@@ -218,27 +218,37 @@ a {
 
 .header-stripes {
   position: relative;
-  height: 20px;
+  height: 24px;
   overflow: hidden;
 }
 
 .header-stripes-blue {
   position: absolute;
-  left: 15.5rem;
+  left: 17.35rem;
   right: 0;
-  top: 8px;
+  top: 10px;
   height: 8px;
   background: #15559f;
 }
 
 .header-stripes-yellow {
   position: absolute;
-  left: 13.7rem;
+  left: 0;
   right: 0;
   top: 0;
-  height: 20px;
+  height: 24px;
   background: #f79a18;
-  clip-path: polygon(0 100%, 7% 100%, 9.2% 0, 100% 0, 100% 22%, 10.2% 22%, 8.1% 100%, 0 100%);
+  clip-path: polygon(
+    0 0,
+    19.2rem 0,
+    18rem 14px,
+    0 14px,
+    0 18px,
+    16.5rem 18px,
+    17.7rem 4px,
+    100% 4px,
+    100% 0
+  );
 }
 
 .hero-copy {
@@ -321,12 +331,21 @@ a {
 
 @media (max-width: 767px) {
   .header-stripes-blue {
-    left: 8.7rem;
+    left: 10rem;
   }
 
   .header-stripes-yellow {
-    left: 7.2rem;
-    clip-path: polygon(0 100%, 12% 100%, 16% 0, 100% 0, 100% 22%, 18% 22%, 14% 100%, 0 100%);
+    clip-path: polygon(
+      0 0,
+      8.9rem 0,
+      8.15rem 12px,
+      0 12px,
+      0 16px,
+      7.35rem 16px,
+      8.1rem 4px,
+      100% 4px,
+      100% 0
+    );
   }
 
   .hero-wordmark {
