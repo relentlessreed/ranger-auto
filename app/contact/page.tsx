@@ -9,17 +9,28 @@ import engineImageOne from "../../imgs/2.png";
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-rangerCanvas text-slate-950">
-      <header className="sticky top-0 z-50 border-b-4 border-rangerBlue bg-rangerOrange">
+      <header className="sticky top-0 z-50 bg-white shadow-[0_10px_30px_rgba(21,85,159,0.08)]">
         <div className="shell">
-          <div className="flex min-h-[88px] items-center justify-between py-4 lg:min-h-[96px] lg:py-3">
-            <Link href="/" className="inline-block">
-              <div className="header-wordmark text-rangerBlue">Ranger Auto</div>
-              <div className="header-subtitle text-white">Buy . Sell . Repair</div>
+          <div className="flex min-h-[84px] items-center justify-between gap-6 py-4">
+            <Link href="/" className="flex items-center gap-4">
+              <div className="brand-mark" aria-hidden="true">
+                <div className="brand-mark-ra">RA</div>
+                <div className="brand-mark-yellow" />
+                <div className="brand-mark-blue" />
+              </div>
+              <div>
+                <div className="header-wordmark text-rangerBlue">Ranger Auto</div>
+                <div className="header-subtitle text-rangerOrange">Buy . Sell . Repair</div>
+              </div>
             </Link>
-            <Link href="/" className="text-sm font-bold uppercase tracking-[0.1em] text-white">
+            <Link href="/" className="header-nav-button">
               Back Home
             </Link>
           </div>
+        </div>
+        <div className="header-stripes" aria-hidden="true">
+          <div className="header-stripes-blue" />
+          <div className="header-stripes-yellow" />
         </div>
       </header>
 

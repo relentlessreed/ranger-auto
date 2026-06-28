@@ -189,7 +189,7 @@ export default function Home() {
       <section className="bg-rangerBlue py-12 text-white md:py-16">
         <div className="shell grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
           <div>
-            <p className="shop-kicker text-[#ffd18b]">Contact the shop</p>
+            <p className="shop-kicker text-rangerOrange">Contact the shop</p>
             <h2 className="section-title mt-3 text-white">Need an estimate, diagnosis, or a second opinion?</h2>
             <p className="mt-5 max-w-3xl text-base leading-8 text-white/84">
               Call, text, or email directly. Describe the vehicle, the symptoms, and what you

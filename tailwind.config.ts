@@ -6,7 +6,7 @@ const config: Config = {
     extend: {
       colors: {
         rangerBlue: "#15559f",
-        rangerOrange: "#f79a18",
+        rangerOrange: "#f2be1a",
       },
       boxShadow: {
         card: "0 30px 90px rgba(11, 43, 91, 0.16)",
