@@ -6,9 +6,8 @@ export function HeaderStripe() {
       viewBox="0 0 1600 18"
       preserveAspectRatio="none"
     >
-      <rect width="1600" height="18" fill="#f5c319" />
-      <path d="M0 3H355L380 8H1600V11H0V3Z" fill="#0f4c97" />
-      <path d="M0 0H420L392 3H0V0Z" fill="#ffffff" opacity="0.96" />
+      <rect x="0" y="7" width="1600" height="4" fill="#174f96" />
+      <path d="M0 14H365L402 3H540V7H428L391 18H0V14Z" fill="#f2be1a" />
     </svg>
   );
 }
