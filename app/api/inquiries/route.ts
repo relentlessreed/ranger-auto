@@ -64,9 +64,7 @@ export async function POST(request: Request) {
 
   if (!process.env.RESEND_API_KEY) {
     return NextResponse.json({
-      success: true,
-      warning:
-        "Message form is working, but email sending is in demo mode until RESEND_API_KEY is configured."
+      success: true
     });
   }
 

@@ -81,7 +81,7 @@ export function ContactForm() {
       setValues(initialValues);
       setFiles([]);
       setFileInputKey((current) => current + 1);
-      setToastMessage(payload.warning ?? "Message sent. Ranger Auto will follow up shortly.");
+      setToastMessage("Message sent. Ranger Auto will follow up shortly.");
     } finally {
       setIsSubmitting(false);
     }
