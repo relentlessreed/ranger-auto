@@ -185,8 +185,8 @@ a {
   position: relative;
   display: grid;
   place-items: center;
-  width: 3.25rem;
-  height: 2.9rem;
+  width: 5.8rem;
+  height: 4.6rem;
 }
 
 .brand-mark-ra {
@@ -194,7 +194,7 @@ a {
   z-index: 3;
   color: var(--ranger-blue-deep);
   font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
-  font-size: 1.85rem;
+  font-size: 3.35rem;
   line-height: 1;
   letter-spacing: 0.01em;
   text-transform: uppercase;
@@ -208,17 +208,17 @@ a {
 }
 
 .brand-mark-yellow {
-  bottom: 0.55rem;
+  bottom: 0.88rem;
   z-index: 2;
-  height: 0.34rem;
+  height: 0.54rem;
   background: var(--ranger-yellow);
   clip-path: polygon(0 100%, 55% 100%, 71% 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .brand-mark-blue {
-  bottom: 0.18rem;
+  bottom: 0.3rem;
   z-index: 1;
-  height: 0.28rem;
+  height: 0.42rem;
   background: var(--ranger-blue-deep);
 }
 
@@ -348,22 +348,22 @@ a {
   }
 
   .brand-mark {
-    width: 2.35rem;
-    height: 2.1rem;
+    width: 4.2rem;
+    height: 3.25rem;
   }
 
   .brand-mark-ra {
-    font-size: 1.32rem;
+    font-size: 2.45rem;
   }
 
   .brand-mark-yellow {
-    bottom: 0.38rem;
-    height: 0.24rem;
+    bottom: 0.62rem;
+    height: 0.38rem;
   }
 
   .brand-mark-blue {
-    bottom: 0.08rem;
-    height: 0.2rem;
+    bottom: 0.18rem;
+    height: 0.3rem;
   }
 
   .header-stripes {
