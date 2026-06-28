@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 70" role="img" aria-labelledby="title">
   <title>Ranger Auto brand mark</title>
-  <rect width="240" height="120" fill="none"/>
-  <text x="12" y="48" fill="#174f96" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="54">R</text>
-  <text x="44" y="47" fill="#174f96" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="18" letter-spacing="1">ANGER</text>
-  <text x="108" y="100" fill="#174f96" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="54">A</text>
-  <text x="140" y="78" fill="#174f96" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="18" letter-spacing="1">UTO</text>
-  <rect x="0" y="57" width="158" height="10" fill="#174f96"/>
-  <path d="M104 24H235V38H132L115 72H0V58H104Z" fill="#f2be1a"/>
+  <rect width="220" height="70" fill="none"/>
+  <path d="M0 38h98l15-18h42v8h-37l-15 18H0z" fill="#f2be1a"/>
+  <rect x="0" y="29" width="154" height="10" fill="#174f96"/>
+  <text x="6" y="20" fill="#174f96" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="16" letter-spacing="1">RA</text>
+  <text x="38" y="20" fill="#174f96" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="16" letter-spacing="1">RANGER AUTO</text>
+  <text x="38" y="58" fill="#174f96" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="16" letter-spacing="1">A</text>
+  <text x="52" y="46" fill="#174f96" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="12" letter-spacing="1">UTO</text>
 </svg>

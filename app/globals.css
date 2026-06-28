@@ -182,7 +182,7 @@ a {
 }
 
 .brand-mark-svg {
-  width: 7.1rem;
+  width: 5.2rem;
   height: auto;
   flex-shrink: 0;
 }
@@ -235,13 +235,6 @@ a {
   width: 38%;
   background: radial-gradient(circle at right center, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
   z-index: 1;
-}
-
-.work-card {
-  overflow: hidden;
-  border: 1px solid rgba(15, 23, 42, 0.12);
-  background: white;
-  box-shadow: 0 24px 48px rgba(15, 23, 42, 0.08);
 }
 
 .service-grid {
@@ -313,7 +306,7 @@ a {
   }
 
   .brand-mark-svg {
-    width: 4.15rem;
+    width: 3.3rem;
   }
 
   .header-stripes {

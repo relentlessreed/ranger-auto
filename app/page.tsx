@@ -5,8 +5,6 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 import heroImage from "../imgs/4.png";
-import engineImageOne from "../imgs/2.png";
-import engineImageTwo from "../imgs/5.png";
 
 const services = [
   "Diagnostics and troubleshooting",
@@ -15,24 +13,6 @@ const services = [
   "Electrical repair",
   "Detailing inside and out",
   "Custom fabrication and welding"
-];
-
-const workGallery = [
-  {
-    image: heroImage,
-    title: "Real shop, real lift",
-    text: "A working Lawrence bay set up for direct, hands-on repair instead of a polished showroom."
-  },
-  {
-    image: engineImageOne,
-    title: "Deep mechanical work",
-    text: "Tear-down and inspection work documented with close photos so customers can see what is actually happening."
-  },
-  {
-    image: engineImageTwo,
-    title: "Builds and internals",
-    text: "Project-car and engine-internals work that shows the shop is comfortable beyond basic maintenance."
-  }
 ];
 
 export default function Home() {
@@ -62,9 +42,6 @@ export default function Home() {
               </Link>
               <Link href="#about" className="header-nav-link">
                 About
-              </Link>
-              <Link href="#work" className="header-nav-link">
-                Work
               </Link>
               <Link href="/contact" className="header-nav-button">
                 Contact
@@ -132,37 +109,6 @@ export default function Home() {
               <div className="hero-stripe-orange" />
               <div className="hero-stripe-blue" />
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="work" className="bg-[#f5f7fb] py-12 md:py-16">
-        <div className="shell">
-          <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-            <div>
-              <p className="shop-kicker">Recent work</p>
-              <h2 className="section-title mt-3 text-rangerBlue">What the shop actually looks like</h2>
-            </div>
-            <p className="max-w-xl text-sm leading-7 text-slate-700">
-              These photos shift the page away from app UI and toward the real thing: the lift,
-              the bay, the teardown work, and the kind of jobs customers actually bring in.
-            </p>
-          </div>
-
-          <div className="mt-8 grid gap-6 lg:grid-cols-3">
-            {workGallery.map((item) => (
-              <article key={item.title} className="work-card">
-                <div className="relative aspect-[4/3] overflow-hidden">
-                  <Image src={item.image} alt={item.title} fill className="object-cover" />
-                </div>
-                <div className="border-t-4 border-rangerBlue bg-white p-5">
-                  <h3 className="text-xl font-black uppercase tracking-[0.06em] text-rangerBlue">
-                    {item.title}
-                  </h3>
-                  <p className="mt-3 text-sm leading-7 text-slate-700">{item.text}</p>
-                </div>
-              </article>
-            ))}
           </div>
         </div>
       </section>
