@@ -179,7 +179,7 @@ a {
 
 .header-stripes {
   position: relative;
-  height: 18px;
+  height: 24px;
   overflow: hidden;
   background: transparent;
 }
@@ -197,7 +197,7 @@ a {
 
 @media (min-width: 1024px) {
   .hero-image-wrap {
-    min-height: 565px !important;
+    min-height: 520px !important;
   }
 }
 

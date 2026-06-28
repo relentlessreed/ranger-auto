@@ -88,12 +88,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hero-image-wrap relative min-h-[340px] bg-[#d7dbe1] lg:min-h-[640px]">
+          <div className="hero-image-wrap relative min-h-[340px] bg-[#d7dbe1] lg:min-h-[520px]">
             <Image
               src={heroImage}
               alt="Ranger Auto shop with a car on the lift"
               fill
-              className="object-cover"
+              className="object-cover object-top"
               priority
             />
           </div>
