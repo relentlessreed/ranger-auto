@@ -337,22 +337,70 @@ a {
 }
 
 @media (max-width: 767px) {
+  .header-wordmark {
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+  }
+
+  .header-subtitle {
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+  }
+
+  .brand-mark {
+    width: 2.35rem;
+    height: 2.1rem;
+  }
+
+  .brand-mark-ra {
+    font-size: 1.32rem;
+  }
+
+  .brand-mark-yellow {
+    bottom: 0.38rem;
+    height: 0.24rem;
+  }
+
+  .brand-mark-blue {
+    bottom: 0.08rem;
+    height: 0.2rem;
+  }
+
+  .header-stripes {
+    height: 18px;
+  }
+
   .header-stripes-blue {
-    left: 11.6rem;
+    left: 6.8rem;
+    top: 8px;
+    height: 5px;
   }
 
   .header-stripes-yellow {
+    height: 18px;
     clip-path: polygon(
       0 0,
-      10.85rem 0,
-      9.95rem 12px,
-      0 12px,
-      0 16px,
-      9.1rem 16px,
-      10rem 4px,
-      100% 4px,
+      7.25rem 0,
+      6.6rem 10px,
+      0 10px,
+      0 14px,
+      5.95rem 14px,
+      6.65rem 3px,
+      100% 3px,
       100% 0
     );
+  }
+
+  .shell {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  header .shell > div {
+    min-height: 62px;
+    gap: 0.75rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.5rem;
   }
 
   .hero-wordmark {
