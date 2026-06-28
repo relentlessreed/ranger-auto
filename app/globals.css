@@ -185,8 +185,8 @@ a {
   position: relative;
   display: grid;
   place-items: center;
-  width: 5.8rem;
-  height: 4.6rem;
+  width: 4.9rem;
+  height: 3.9rem;
 }
 
 .brand-mark-ra {
@@ -194,7 +194,7 @@ a {
   z-index: 3;
   color: var(--ranger-blue-deep);
   font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
-  font-size: 3.35rem;
+  font-size: 2.8rem;
   line-height: 1;
   letter-spacing: 0.01em;
   text-transform: uppercase;
@@ -208,33 +208,33 @@ a {
 }
 
 .brand-mark-yellow {
-  bottom: 0.88rem;
+  bottom: 0.72rem;
   z-index: 2;
-  height: 0.54rem;
+  height: 0.46rem;
   background: var(--ranger-yellow);
   clip-path: polygon(0 100%, 55% 100%, 71% 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .brand-mark-blue {
-  bottom: 0.3rem;
+  bottom: 0.22rem;
   z-index: 1;
-  height: 0.42rem;
+  height: 0.34rem;
   background: var(--ranger-blue-deep);
 }
 
 .header-stripes {
   position: relative;
-  height: 26px;
+  height: 18px;
   overflow: hidden;
   background: #ffffff;
 }
 
 .header-stripes-blue {
   position: absolute;
-  left: 18.25rem;
+  left: 17.1rem;
   right: 0;
-  top: 11px;
-  height: 6px;
+  top: 7px;
+  height: 5px;
   background: var(--ranger-blue-deep);
 }
 
@@ -243,17 +243,17 @@ a {
   left: 0;
   right: 0;
   top: 0;
-  height: 24px;
+  height: 18px;
   background: var(--ranger-yellow);
   clip-path: polygon(
     0 0,
-    19.35rem 0,
-    18.05rem 15px,
-    0 15px,
-    0 19px,
-    16.9rem 19px,
-    18.2rem 4px,
-    100% 4px,
+    18.15rem 0,
+    17.05rem 11px,
+    0 11px,
+    0 14px,
+    16rem 14px,
+    17.15rem 3px,
+    100% 3px,
     100% 0
   );
 }
@@ -338,55 +338,55 @@ a {
 
 @media (max-width: 767px) {
   .header-wordmark {
-    font-size: 2rem;
+    font-size: 1.58rem;
     letter-spacing: 0.05em;
   }
 
   .header-subtitle {
-    font-size: 0.7rem;
-    letter-spacing: 0.12em;
+    font-size: 0.5rem;
+    letter-spacing: 0.16em;
   }
 
   .brand-mark {
-    width: 4.2rem;
-    height: 3.25rem;
+    width: 2.85rem;
+    height: 2.2rem;
   }
 
   .brand-mark-ra {
-    font-size: 2.45rem;
+    font-size: 1.68rem;
   }
 
   .brand-mark-yellow {
-    bottom: 0.62rem;
-    height: 0.38rem;
+    bottom: 0.4rem;
+    height: 0.24rem;
   }
 
   .brand-mark-blue {
-    bottom: 0.18rem;
-    height: 0.3rem;
+    bottom: 0.12rem;
+    height: 0.2rem;
   }
 
   .header-stripes {
-    height: 18px;
+    height: 12px;
   }
 
   .header-stripes-blue {
-    left: 6.8rem;
-    top: 8px;
-    height: 5px;
+    left: 5.95rem;
+    top: 5px;
+    height: 4px;
   }
 
   .header-stripes-yellow {
-    height: 18px;
+    height: 12px;
     clip-path: polygon(
       0 0,
-      7.25rem 0,
-      6.6rem 10px,
+      6.35rem 0,
+      5.8rem 8px,
+      0 8px,
       0 10px,
-      0 14px,
-      5.95rem 14px,
-      6.65rem 3px,
-      100% 3px,
+      5.25rem 10px,
+      5.82rem 2px,
+      100% 2px,
       100% 0
     );
   }
@@ -397,10 +397,10 @@ a {
   }
 
   header .shell > div {
-    min-height: 62px;
-    gap: 0.75rem;
-    padding-top: 0.7rem;
-    padding-bottom: 0.5rem;
+    min-height: 46px;
+    gap: 0.45rem;
+    padding-top: 0.55rem;
+    padding-bottom: 0.25rem;
   }
 
   .hero-wordmark {
