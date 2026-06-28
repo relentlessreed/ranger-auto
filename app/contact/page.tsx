@@ -3,9 +3,9 @@ import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 import { ContactForm } from "../../components/public/contact-form";
+import { HeaderStripe } from "../../components/public/header-stripe";
 import heroImage from "../../imgs/4.png";
 import engineImageOne from "../../imgs/2.png";
-import headerStripeImage from "../../imgs/use-this-instead-of-svg-line-bottom-of-sticky-footer-for-now.png";
 
 export default function ContactPage() {
   return (
@@ -25,13 +25,7 @@ export default function ContactPage() {
           </div>
         </div>
         <div className="header-stripes" aria-hidden="true">
-          <Image
-            src={headerStripeImage}
-            alt=""
-            fill
-            className="object-cover object-left"
-            sizes="100vw"
-          />
+          <HeaderStripe />
         </div>
       </header>
 
