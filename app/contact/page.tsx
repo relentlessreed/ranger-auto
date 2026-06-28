@@ -14,9 +14,13 @@ export default function ContactPage() {
           <div className="flex min-h-[84px] items-center justify-between gap-6 py-4">
             <Link href="/" className="flex items-center gap-4">
               <div className="brand-mark" aria-hidden="true">
-                <div className="brand-mark-ra">RA</div>
-                <div className="brand-mark-yellow" />
-                <div className="brand-mark-blue" />
+                <div className="brand-mark-r">R</div>
+                <div className="brand-mark-anger">ANGER</div>
+                <div className="brand-mark-a">A</div>
+                <div className="brand-mark-uto">UTO</div>
+                <div className="brand-mark-yellow-top" />
+                <div className="brand-mark-blue-bar" />
+                <div className="brand-mark-yellow-bottom" />
               </div>
               <div>
                 <div className="header-wordmark text-rangerBlue">Ranger Auto</div>
