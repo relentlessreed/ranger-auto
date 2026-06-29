@@ -24,19 +24,16 @@ export function SiteHeader({ isContactPage = false }: SiteHeaderProps) {
           />
         </div>
 
-        <div className="site-header-tagline-slot" aria-hidden="true">
-          <img
-            src="/buy-sell-repair-cropped.svg"
-            alt=""
-            className="site-header-tagline-art site-header-wipe site-header-wipe-delay-2"
-          />
-        </div>
-
-        <div className="site-header-brand-slot" aria-hidden="true">
+        <div className="site-header-brand-stack" aria-hidden="true">
           <img
             src="/ranger-auto-logo-cropped.svg"
             alt=""
             className="site-header-brand-art site-header-wipe site-header-wipe-delay-1"
+          />
+          <img
+            src="/buy-sell-repair-cropped.svg"
+            alt=""
+            className="site-header-tagline-art site-header-wipe site-header-wipe-delay-2"
           />
         </div>
 
