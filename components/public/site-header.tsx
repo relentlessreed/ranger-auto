@@ -6,7 +6,7 @@ type SiteHeaderProps = {
 
 export function SiteHeader({ isContactPage = false }: SiteHeaderProps) {
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-[0_10px_30px_rgba(21,85,159,0.08)]">
+    <header className="site-header sticky top-0 z-50 shadow-[0_10px_30px_rgba(21,85,159,0.08)]">
       <div className="site-header-frame">
         <img
           src="/ranger-header-fill-only-crisp.svg"
