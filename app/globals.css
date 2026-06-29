@@ -215,8 +215,8 @@ a {
 .site-header-brand-slot {
   position: absolute;
   left: clamp(1rem, 1.25vw, 1.3rem);
-  top: clamp(0.82rem, 1.15vw, 1rem);
-  width: clamp(16rem, 23.4vw, 24.2rem);
+  top: clamp(0.72rem, 0.98vw, 0.9rem);
+  width: clamp(14.8rem, 21.8vw, 22.4rem);
   pointer-events: none;
   z-index: 1;
 }
@@ -230,8 +230,8 @@ a {
 .site-header-tagline-slot {
   position: absolute;
   left: clamp(1rem, 1.25vw, 1.3rem);
-  top: clamp(3.82rem, 4.95vw, 4.12rem);
-  width: clamp(7.8rem, 10.8vw, 10rem);
+  top: clamp(2.92rem, 3.85vw, 3.22rem);
+  width: clamp(7.3rem, 10.1vw, 9.3rem);
   pointer-events: none;
   z-index: 1;
 }
@@ -375,7 +375,7 @@ a {
 
 @media (max-width: 767px) {
   .site-header-scene {
-    min-height: 6.15rem;
+    min-height: 5.7rem;
   }
 
   .site-header-scene-art {
@@ -385,14 +385,14 @@ a {
 
   .site-header-brand-slot {
     left: 0.72rem;
-    top: 0.62rem;
-    width: 9.6rem;
+    top: 0.56rem;
+    width: 8.5rem;
   }
 
   .site-header-tagline-slot {
     left: 0.76rem;
-    top: 2.36rem;
-    width: 5.35rem;
+    top: 1.98rem;
+    width: 4.75rem;
   }
 
   .header-wordmark {
@@ -426,7 +426,7 @@ a {
   }
 
   .site-header-ui-row {
-    min-height: 6.05rem;
+    min-height: 5.6rem;
     gap: 0.7rem;
   }
 
@@ -441,7 +441,7 @@ a {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .site-header-scene {
-    min-height: 6.55rem;
+    min-height: 5.95rem;
   }
 
   .site-header-scene-art {
@@ -451,17 +451,17 @@ a {
 
   .site-header-brand-slot {
     left: 0.88rem;
-    top: 0.68rem;
-    width: 11.4rem;
+    top: 0.62rem;
+    width: 10.1rem;
   }
 
   .site-header-tagline-slot {
     left: 0.92rem;
-    top: 2.68rem;
-    width: 6.15rem;
+    top: 2.28rem;
+    width: 5.45rem;
   }
 
   .site-header-ui-row {
-    min-height: 6.45rem;
+    min-height: 5.9rem;
   }
 }
