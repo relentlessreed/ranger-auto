@@ -349,8 +349,8 @@ a {
 @media (max-width: 767px) {
   .site-header-scene {
     min-height: 6.35rem;
-    --site-header-tagline-shift: 0.34rem;
-    --site-header-tagline-scale: 0.8;
+    --site-header-tagline-shift: 0.68rem;
+    --site-header-tagline-scale: 0.68;
   }
 
   .site-header-scene-art {
@@ -405,8 +405,8 @@ a {
 @media (min-width: 768px) and (max-width: 1023px) {
   .site-header-scene {
     min-height: 6.7rem;
-    --site-header-tagline-shift: 0.24rem;
-    --site-header-tagline-scale: 0.86;
+    --site-header-tagline-shift: 0.48rem;
+    --site-header-tagline-scale: 0.76;
   }
 
   .site-header-scene-art {
