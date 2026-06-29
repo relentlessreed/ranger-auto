@@ -211,8 +211,8 @@ a {
 .site-header-tagline-slot {
   position: absolute;
   left: clamp(1rem, 1.25vw, 1.3rem);
-  top: clamp(3.05rem, 4.1vw, 3.4rem);
-  width: clamp(8.7rem, 13.2vw, 11.75rem);
+  top: clamp(3.35rem, 4.45vw, 3.72rem);
+  width: clamp(8.1rem, 11.6vw, 10.8rem);
   pointer-events: none;
   z-index: 1;
 }
@@ -356,7 +356,7 @@ a {
 
 @media (max-width: 767px) {
   .site-header-scene {
-    min-height: 6rem;
+    min-height: 6.55rem;
   }
 
   .site-header-scene-art {
@@ -366,8 +366,8 @@ a {
 
   .site-header-tagline-slot {
     left: 0.7rem;
-    top: 3rem;
-    width: 5.95rem;
+    top: 3.25rem;
+    width: 5.25rem;
   }
 
   .header-wordmark {
@@ -401,7 +401,7 @@ a {
   }
 
   .site-header-ui-row {
-    min-height: 5.9rem;
+    min-height: 6.45rem;
     gap: 0.7rem;
   }
 
@@ -416,13 +416,13 @@ a {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .site-header-scene {
-    min-height: 6.45rem;
+    min-height: 6.95rem;
   }
 
   .site-header-tagline-slot {
     left: 0.82rem;
-    top: 3.1rem;
-    width: 7.1rem;
+    top: 3.45rem;
+    width: 6.35rem;
   }
 
   .site-header-scene-art {
@@ -437,6 +437,6 @@ a {
   }
 
   .site-header-ui-row {
-    min-height: 6.35rem;
+    min-height: 6.85rem;
   }
 }
