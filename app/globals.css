@@ -224,15 +224,66 @@ a {
 
 .site-header-brand-link {
   display: flex;
+  align-items: flex-start;
   width: min(40vw, 16.5rem);
   min-width: 8.8rem;
   height: clamp(3.2rem, 5vw, 4.35rem);
   pointer-events: auto;
 }
 
+.site-header-brand-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.02rem;
+  margin-top: clamp(0.65rem, 1vw, 0.9rem);
+}
+
+.site-header-brand-wordmark,
+.site-header-brand-tagline {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: nowrap;
+}
+
+.site-header-brand-wordmark {
+  color: var(--ranger-blue-deep);
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  font-size: clamp(1.78rem, 2.9vw, 2.8rem);
+  line-height: 0.85;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.site-header-brand-tagline {
+  color: var(--ranger-yellow);
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  font-size: clamp(0.74rem, 1.08vw, 1.08rem);
+  line-height: 0.9;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.site-header-letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(-0.7rem);
+  animation: site-header-letter-drop 420ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: calc(var(--letter-index) * 55ms);
+  white-space: pre;
+}
+
+.site-header-letter-space {
+  width: 0.38em;
+}
+
+.site-header-letter-tagline.site-header-letter-space {
+  width: 0.3em;
+}
+
 .site-header-nav-entry {
   animation: site-header-nav-in 560ms cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-delay: 620ms;
+  animation-delay: 1450ms;
 }
 
 .site-header-wipe {
@@ -266,6 +317,18 @@ a {
   from {
     opacity: 0;
     transform: translateY(-0.35rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes site-header-letter-drop {
+  from {
+    opacity: 0;
+    transform: translateY(-0.7rem);
   }
 
   to {
@@ -361,6 +424,20 @@ a {
     min-width: 0;
     width: min(48vw, 12rem);
     height: 2.7rem;
+  }
+
+  .site-header-brand-text {
+    margin-top: 0.48rem;
+  }
+
+  .site-header-brand-wordmark {
+    font-size: clamp(1.14rem, 5.4vw, 1.6rem);
+    letter-spacing: 0.01em;
+  }
+
+  .site-header-brand-tagline {
+    font-size: clamp(0.42rem, 1.95vw, 0.62rem);
+    letter-spacing: 0.04em;
   }
 
   .shell {
