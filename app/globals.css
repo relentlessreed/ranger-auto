@@ -375,7 +375,7 @@ a {
   }
 
   .site-header-scene-art-tagline {
-    transform: translateY(-0.12rem) scale(0.88);
+    transform: translateY(0.18rem) scale(0.84);
   }
 
   .shell {
@@ -413,7 +413,7 @@ a {
   }
 
   .site-header-scene-art-tagline {
-    transform: translateY(-0.04rem) scale(0.92);
+    transform: translateY(0.14rem) scale(0.89);
   }
 
   .site-header-ui-row {
