@@ -344,6 +344,15 @@ a {
 }
 
 @media (max-width: 767px) {
+  .site-header-scene {
+    min-height: 5.65rem;
+  }
+
+  .site-header-scene-art {
+    object-fit: cover;
+    object-position: left top;
+  }
+
   .header-wordmark {
     font-size: 1.58rem;
     letter-spacing: 0.05em;
@@ -393,6 +402,15 @@ a {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .site-header-scene {
+    min-height: 6.15rem;
+  }
+
+  .site-header-scene-art {
+    object-fit: cover;
+    object-position: left top;
+  }
+
   .site-header-scene-art-tagline {
     transform: translateY(-0.12rem);
   }
