@@ -215,6 +215,7 @@ a {
 
 .site-header-ui-row {
   display: flex;
+  position: relative;
   width: 100%;
   align-items: center;
   justify-content: space-between;
@@ -225,9 +226,12 @@ a {
 .site-header-brand-link {
   display: flex;
   align-items: flex-start;
+  position: absolute;
+  left: clamp(1rem, 1.45vw, 1.4rem);
+  top: clamp(0.42rem, 0.7vw, 0.62rem);
   width: min(40vw, 16.5rem);
   min-width: 8.8rem;
-  height: clamp(3.2rem, 5vw, 4.35rem);
+  height: clamp(3.55rem, 5.4vw, 4.8rem);
   pointer-events: auto;
 }
 
@@ -235,8 +239,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.02rem;
-  margin-top: clamp(0.65rem, 1vw, 0.9rem);
+  gap: 0.18rem;
+  margin-top: 0;
 }
 
 .site-header-brand-wordmark,
@@ -260,7 +264,7 @@ a {
   font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
   font-size: clamp(0.74rem, 1.08vw, 1.08rem);
   line-height: 0.9;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
 }
 

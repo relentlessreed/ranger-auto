@@ -5,7 +5,7 @@ type SiteHeaderProps = {
 };
 
 const brandChars = Array.from("RANGER AUTO");
-const taglineChars = Array.from("BUY - SELL - REPAIR");
+const taglineChars = Array.from("BUY . SELL . REPAIR");
 
 export function SiteHeader({ isContactPage = false }: SiteHeaderProps) {
   return (
