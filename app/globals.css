@@ -202,6 +202,10 @@ a {
   pointer-events: none;
 }
 
+.site-header-layer-logo {
+  display: none;
+}
+
 .site-header-scene-art {
   display: block;
   width: 100%;
@@ -211,8 +215,8 @@ a {
 .site-header-brand-slot {
   position: absolute;
   left: clamp(1rem, 1.25vw, 1.3rem);
-  top: clamp(0.9rem, 1.35vw, 1.15rem);
-  width: clamp(12.8rem, 18.6vw, 19.2rem);
+  top: clamp(0.82rem, 1.15vw, 1rem);
+  width: clamp(13.8rem, 20.4vw, 20.8rem);
   pointer-events: none;
   z-index: 1;
 }
@@ -226,8 +230,8 @@ a {
 .site-header-tagline-slot {
   position: absolute;
   left: clamp(1rem, 1.25vw, 1.3rem);
-  top: clamp(3.95rem, 5.15vw, 4.28rem);
-  width: clamp(6.9rem, 9.6vw, 9.1rem);
+  top: clamp(3.55rem, 4.55vw, 3.82rem);
+  width: clamp(7.2rem, 10vw, 9.4rem);
   pointer-events: none;
   z-index: 1;
 }
@@ -379,20 +383,16 @@ a {
     object-position: left top;
   }
 
-  .site-header-layer-logo {
-    display: none;
-  }
-
   .site-header-brand-slot {
-    left: 0.7rem;
-    top: 0.72rem;
-    width: 8.05rem;
+    left: 0.75rem;
+    top: 0.86rem;
+    width: 7.6rem;
   }
 
   .site-header-tagline-slot {
-    left: 0.7rem;
-    top: 2.62rem;
-    width: 4.35rem;
+    left: 0.78rem;
+    top: 2.78rem;
+    width: 4.9rem;
   }
 
   .header-wordmark {
@@ -449,29 +449,19 @@ a {
     object-position: left top;
   }
 
-  .site-header-layer-logo {
-    display: none;
-  }
-
   .site-header-brand-slot {
-    left: 0.82rem;
-    top: 0.85rem;
-    width: 10rem;
+    left: 0.9rem;
+    top: 0.96rem;
+    width: 9.8rem;
   }
 
   .site-header-tagline-slot {
-    left: 0.82rem;
-    top: 3.08rem;
-    width: 5.45rem;
+    left: 0.94rem;
+    top: 3.18rem;
+    width: 6rem;
   }
 
   .site-header-ui-row {
     min-height: 7.1rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .site-header-brand-slot {
-    display: none;
   }
 }
