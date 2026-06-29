@@ -216,7 +216,7 @@ a {
   position: absolute;
   left: clamp(1rem, 1.25vw, 1.3rem);
   top: clamp(0.82rem, 1.15vw, 1rem);
-  width: clamp(13.8rem, 20.4vw, 20.8rem);
+  width: clamp(15.2rem, 22.4vw, 23rem);
   pointer-events: none;
   z-index: 1;
 }
@@ -230,7 +230,7 @@ a {
 .site-header-tagline-slot {
   position: absolute;
   left: clamp(1rem, 1.25vw, 1.3rem);
-  top: clamp(3.55rem, 4.55vw, 3.82rem);
+  top: clamp(3.82rem, 4.95vw, 4.12rem);
   width: clamp(7.2rem, 10vw, 9.4rem);
   pointer-events: none;
   z-index: 1;
@@ -386,13 +386,13 @@ a {
   .site-header-brand-slot {
     left: 0.75rem;
     top: 0.86rem;
-    width: 7.6rem;
+    width: 9.4rem;
   }
 
   .site-header-tagline-slot {
     left: 0.78rem;
-    top: 2.78rem;
-    width: 4.9rem;
+    top: 3.1rem;
+    width: 5.45rem;
   }
 
   .header-wordmark {
@@ -452,13 +452,13 @@ a {
   .site-header-brand-slot {
     left: 0.9rem;
     top: 0.96rem;
-    width: 9.8rem;
+    width: 11.4rem;
   }
 
   .site-header-tagline-slot {
     left: 0.94rem;
-    top: 3.18rem;
-    width: 6rem;
+    top: 3.46rem;
+    width: 6.5rem;
   }
 
   .site-header-ui-row {

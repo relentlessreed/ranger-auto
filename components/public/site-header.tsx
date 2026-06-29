@@ -16,14 +16,6 @@ export function SiteHeader({ isContactPage = false }: SiteHeaderProps) {
           />
         </div>
 
-        <div className="site-header-layer site-header-layer-logo" aria-hidden="true">
-          <img
-            src="/ranger-auto-logo-for-animation.svg"
-            alt=""
-            className="site-header-scene-art site-header-scene-art-logo site-header-wipe site-header-wipe-delay-1"
-          />
-        </div>
-
         <div className="site-header-layer site-header-layer-stripes" aria-hidden="true">
           <img
             src="/yellow-and-blue-stripes-for-animation.svg"
