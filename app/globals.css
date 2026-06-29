@@ -179,6 +179,7 @@ a {
 
 .site-header {
   background: transparent;
+  overflow: visible;
 }
 
 .site-header-frame {
@@ -187,6 +188,19 @@ a {
   background: #fff;
   line-height: 0;
   overflow: hidden;
+}
+
+.site-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: min(19vw, 16.5rem);
+  height: 1.95rem;
+  background: #fff;
+  clip-path: polygon(0 0, 76% 0, 84% 44%, 100% 44%, 100% 100%, 0 100%);
+  transform: translateY(-100%);
+  pointer-events: none;
 }
 
 .site-header-frame::after {
