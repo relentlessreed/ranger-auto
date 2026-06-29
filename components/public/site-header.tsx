@@ -40,6 +40,14 @@ export function SiteHeader({ isContactPage = false }: SiteHeaderProps) {
           />
         </div>
 
+        <div className="site-header-brand-slot" aria-hidden="true">
+          <img
+            src="/ranger-auto-logo-cropped.svg"
+            alt=""
+            className="site-header-brand-art site-header-wipe site-header-wipe-delay-1"
+          />
+        </div>
+
         <div className="site-header-ui shell">
           <div className="site-header-ui-row">
             <Link href="/" className="site-header-brand-link">
