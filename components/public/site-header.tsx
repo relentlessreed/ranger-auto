@@ -24,19 +24,19 @@ export function SiteHeader({ isContactPage = false }: SiteHeaderProps) {
           />
         </div>
 
-        <div className="site-header-layer site-header-layer-tagline" aria-hidden="true">
-          <img
-            src="/buy-sell-repair-for-animation.svg"
-            alt=""
-            className="site-header-scene-art site-header-scene-art-tagline site-header-wipe site-header-wipe-delay-2"
-          />
-        </div>
-
         <div className="site-header-layer site-header-layer-stripes" aria-hidden="true">
           <img
             src="/yellow-and-blue-stripes-for-animation.svg"
             alt=""
             className="site-header-scene-art site-header-wipe site-header-wipe-delay-3"
+          />
+        </div>
+
+        <div className="site-header-tagline-slot" aria-hidden="true">
+          <img
+            src="/buy-sell-repair-cropped.svg"
+            alt=""
+            className="site-header-tagline-art site-header-wipe site-header-wipe-delay-2"
           />
         </div>
 
