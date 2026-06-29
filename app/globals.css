@@ -183,10 +183,18 @@ a {
 
 .site-header-frame {
   position: relative;
-  aspect-ratio: 6000 / 413.086;
-  overflow: hidden;
+  aspect-ratio: 6000 / 495.097;
   background: #fff;
   line-height: 0;
+  overflow: hidden;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 83.25%,
+    12.725% 83.25%,
+    11.903% 100%,
+    0 100%
+  );
 }
 
 .site-header-art {
@@ -195,8 +203,6 @@ a {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top;
 }
 
 .site-header-overlay {
