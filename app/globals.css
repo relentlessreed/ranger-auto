@@ -208,6 +208,21 @@ a {
   height: 100%;
 }
 
+.site-header-scene-art-logo,
+.site-header-scene-art-tagline {
+  transform-origin: top left;
+}
+
+.site-header-scene-art-logo {
+  transform: translate(clamp(0.55rem, 0.9vw, 0.95rem), clamp(-0.45rem, -0.75vw, -0.3rem))
+    scale(0.94);
+}
+
+.site-header-scene-art-tagline {
+  transform: translate(clamp(0.55rem, 0.9vw, 0.95rem), clamp(-0.16rem, -0.25vw, -0.08rem))
+    scale(0.92);
+}
+
 .site-header-ui {
   position: relative;
   z-index: 1;
@@ -358,6 +373,14 @@ a {
     min-width: 0;
     width: min(48vw, 12rem);
     height: 2.7rem;
+  }
+
+  .site-header-scene-art-logo {
+    transform: translate(0.5rem, -0.3rem) scale(0.91);
+  }
+
+  .site-header-scene-art-tagline {
+    transform: translate(0.5rem, -0.08rem) scale(0.88);
   }
 
   .shell {
