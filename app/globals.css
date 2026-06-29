@@ -211,8 +211,8 @@ a {
 .site-header-tagline-slot {
   position: absolute;
   left: clamp(1rem, 1.25vw, 1.3rem);
-  top: clamp(2.35rem, 3.45vw, 2.8rem);
-  width: clamp(9.8rem, 16vw, 14.5rem);
+  top: clamp(3.05rem, 4.1vw, 3.4rem);
+  width: clamp(8.7rem, 13.2vw, 11.75rem);
   pointer-events: none;
   z-index: 1;
 }
@@ -366,8 +366,8 @@ a {
 
   .site-header-tagline-slot {
     left: 0.7rem;
-    top: 2.65rem;
-    width: 7.2rem;
+    top: 3rem;
+    width: 5.95rem;
   }
 
   .header-wordmark {
@@ -417,6 +417,12 @@ a {
 @media (min-width: 768px) and (max-width: 1023px) {
   .site-header-scene {
     min-height: 6.45rem;
+  }
+
+  .site-header-tagline-slot {
+    left: 0.82rem;
+    top: 3.1rem;
+    width: 7.1rem;
   }
 
   .site-header-scene-art {
