@@ -1,33 +1,15 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 import { ContactForm } from "../../components/public/contact-form";
-import { HeaderStripe } from "../../components/public/header-stripe";
+import { SiteHeader } from "../../components/public/site-header";
 import heroImage from "../../imgs/4.png";
 import engineImageOne from "../../imgs/2.png";
 
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-rangerCanvas text-slate-950">
-      <header className="sticky top-0 z-50 bg-white shadow-[0_10px_30px_rgba(21,85,159,0.08)]">
-        <div className="shell">
-          <div className="flex min-h-[84px] items-center justify-between gap-6 py-4">
-            <Link href="/" className="flex items-center">
-              <div>
-                <div className="header-wordmark text-rangerBlue">Ranger Auto</div>
-                <div className="header-subtitle text-rangerOrange">Buy . Sell . Repair</div>
-              </div>
-            </Link>
-            <Link href="/" className="header-nav-button">
-              Back Home
-            </Link>
-          </div>
-        </div>
-        <div className="header-stripes" aria-hidden="true">
-          <HeaderStripe />
-        </div>
-      </header>
+      <SiteHeader isContactPage />
 
       <section className="border-b border-slate-300 bg-white">
         <div className="shell grid gap-8 py-10 md:py-14 xl:grid-cols-[1.2fr_0.8fr]">

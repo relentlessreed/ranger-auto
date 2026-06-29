@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-import { HeaderStripe } from "../components/public/header-stripe";
+import { SiteHeader } from "../components/public/site-header";
 import heroImage from "../imgs/use-instead-of-manual-gradient-effect-for-now.png";
 
 const services = [
@@ -19,33 +19,7 @@ const services = [
 export default function Home() {
   return (
     <main className="min-h-screen bg-rangerCanvas text-slate-950">
-      <header className="sticky top-0 z-50 bg-white shadow-[0_10px_30px_rgba(21,85,159,0.08)]">
-        <div className="shell">
-          <div className="flex min-h-[84px] items-center justify-between gap-6 py-4">
-            <Link href="/" className="flex items-center">
-              <div>
-                <div className="header-wordmark text-rangerBlue">Ranger Auto</div>
-                <div className="header-subtitle text-rangerOrange">Buy . Sell . Repair</div>
-              </div>
-            </Link>
-
-            <nav className="hidden items-center gap-10 lg:flex">
-              <Link href="#services" className="header-nav-link">
-                Services
-              </Link>
-              <Link href="#about" className="header-nav-link">
-                About
-              </Link>
-              <Link href="/contact" className="header-nav-button">
-                Contact
-              </Link>
-            </nav>
-          </div>
-        </div>
-        <div className="header-stripes" aria-hidden="true">
-          <HeaderStripe />
-        </div>
-      </header>
+      <SiteHeader />
 
       <section id="about" className="border-b border-slate-200 bg-white">
         <div className="grid lg:grid-cols-[1.05fr_0.95fr]">

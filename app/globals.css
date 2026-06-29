@@ -177,17 +177,40 @@ a {
   flex-shrink: 0;
 }
 
-.header-stripes {
+.site-header-frame {
   position: relative;
-  height: 24px;
-  overflow: hidden;
-  background: transparent;
+  line-height: 0;
 }
 
-.header-stripes-svg {
+.site-header-art {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+
+.site-header-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+.site-header-overlay .shell {
+  display: flex;
+}
+
+.site-header-overlay-row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header-brand-link {
+  width: min(46vw, 29rem);
+  min-width: 13rem;
+  align-self: stretch;
+  pointer-events: auto;
 }
 
 .hero-copy {
@@ -273,8 +296,8 @@ a {
     width: 3.3rem;
   }
 
-  .header-stripes {
-    height: 12px;
+  .site-header-brand-link {
+    min-width: 8.25rem;
   }
 
   .shell {
@@ -282,11 +305,14 @@ a {
     padding-right: 1rem;
   }
 
-  header .shell > div {
-    min-height: 46px;
-    gap: 0.45rem;
-    padding-top: 0.55rem;
-    padding-bottom: 0.25rem;
+  .site-header-overlay .shell {
+    padding-left: 0.65rem;
+    padding-right: 0.65rem;
+  }
+
+  .site-header-overlay-row {
+    align-items: flex-start;
+    padding-top: 0.25rem;
   }
 
   .hero-wordmark {
