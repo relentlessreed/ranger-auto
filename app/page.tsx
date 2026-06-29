@@ -23,7 +23,7 @@ export default function Home() {
 
       <section id="about" className="border-b border-slate-200 bg-white">
         <div className="grid pt-6 md:pt-8 lg:grid-cols-[1.05fr_0.95fr]">
-          <div className="hero-copy shell py-12 md:py-16 lg:py-20">
+          <div className="hero-copy shell bg-white py-12 md:py-16 lg:py-20">
             <p className="shop-kicker">Independent Lawrence auto repair</p>
             <h1 className="hero-wordmark mt-4 text-rangerBlue">Ranger Auto</h1>
             <p className="hero-subtitle mt-3 text-rangerOrange">Straight answers. Real shop work. No dealership runaround.</p>
