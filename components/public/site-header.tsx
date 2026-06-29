@@ -58,7 +58,7 @@ export function SiteHeader({ isContactPage = false }: SiteHeaderProps) {
                 <Link href="#about" className="header-nav-link site-header-nav-entry">
                   About
                 </Link>
-                <Link href="/contact" className="header-nav-button site-header-nav-entry">
+                <Link href="/contact" className="header-nav-link site-header-nav-entry">
                   Contact
                 </Link>
               </nav>
