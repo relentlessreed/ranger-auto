@@ -230,7 +230,7 @@ a {
   width: 53%;
   height: auto;
   margin-left: 0.08rem;
-  margin-top: -0.08rem;
+  margin-top: 0.35rem;
 }
 
 .site-header-ui {
@@ -379,8 +379,8 @@ a {
     display: block;
     width: 53%;
     height: auto;
-    margin-left: 0.06rem;
-    margin-top: -0.08rem;
+    margin-left: 0.08rem;
+    margin-top: 0.28rem;
   }
 
   .header-wordmark {
@@ -449,7 +449,7 @@ a {
     width: 53%;
     height: auto;
     margin-left: 0.07rem;
-    margin-top: -0.08rem;
+    margin-top: 0.3rem;
   }
 
   .site-header-ui-row {
